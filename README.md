@@ -1,5 +1,5 @@
 # Billiard-SRO
-# Adinda_Krisantya_Padma # 5022221156
+# Adinda_Krisantya_Padma 
 
 from coppeliasim_zmqremoteapi_client import RemoteAPIClient
 import time
@@ -306,7 +306,7 @@ class BilliardGame:
         self.sim.stopSimulation()
         print("Game ended")
 
-# Jalankan permainan
+#Jalankan permainan
 if __name__ == "__main__":
     game = BilliardGame()
     game.run_game()
